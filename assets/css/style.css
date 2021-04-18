@@ -74,12 +74,14 @@ a:hover {
   overflow: hidden;
 }
 
+
 .bg-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
 }
+
 
 @media (max-width: 1024px) {
   .bg-image {
@@ -212,7 +214,7 @@ a:hover {
 .socials .ico-circle {
   height: 40px;
   width: 40px;
-  font-size: 1.4rem;
+  font-size: 1.45rem;
   border-radius: 50%;
   line-height: 1.6;
   margin: 0 15px 0 0;
@@ -876,6 +878,10 @@ a:hover {
 
 .service-box .s-description {
   color: #4e4e4e;
+}
+
+.card-text{
+   min-height: 5rem;
 }
 
 /*--------------------------------------------------------------
